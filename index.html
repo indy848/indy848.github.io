@@ -9,11 +9,42 @@
  <body>
      Hier komt mijn eerste tekst
     
-     <ul>
-        <li><a href='index.html'>home</a></li>
-        <li><a href='binairstelsel.html'>binairstelsel</a></li>
-        <li><a href='kleurmodellen.html'>kleurmodellen</a></li>
-     </ul>
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #666666;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: round;
+        color: lightblue;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111111;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <h2>Navigation Menu</h2>
+      <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+      
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
      <img src="hond.jpeg"
    
     </body>
