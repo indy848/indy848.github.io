@@ -40,7 +40,7 @@ body {
   li a:hover {
     background-color: #111111;
   }
-  <h1 style="color:white;">This is a heading</h1>
-<p style="color:white;">This is a paragraph.</p>
+  <h1 style='color:white';
+<p style='color:white';
 <body>
   
