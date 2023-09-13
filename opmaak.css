@@ -15,6 +15,7 @@ body {
      font-family:veranda;
      font-size:20px;
    }
+
    
    ul {
     list-style-type: none;
@@ -39,16 +40,4 @@ body {
   li a:hover {
     background-color: #111111;
   }
-  </style>
-  </head>
-  <body>
   
-  <h2>Navigation Menu</h2>
-  <p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
-  
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
