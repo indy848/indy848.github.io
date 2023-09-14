@@ -15,6 +15,21 @@ body {
      font-family:veranda;
      font-size:20px;
    }
+   li {
+    float: left;
+  }
+  
+  li a {
+    display: round;
+    color: lightgreen;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
 
    
    
