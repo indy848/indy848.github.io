@@ -39,4 +39,12 @@ body {
     background-color: #111111;
   }
 
- 
+  <style>
+  footer {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: #000000; /* Tekstkleur van de footer */
+      padding: 10px; /* Ruimte rond de inhoud van de footer */
+  }
+</style>
