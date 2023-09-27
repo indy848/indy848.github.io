@@ -39,6 +39,12 @@ body {
     background-color: #111111;
   }
   
+  <style>
+    iframe {
+        width:800px;
+        height:600px;
+    }
+</style>
   
   
 
