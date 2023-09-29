@@ -3,18 +3,24 @@ ul{
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(237, 214, 245);
    }
+      /*dit geeft de opmaak van de achtergrond kleur aan*/
+
    h1{
    color:rgb(152, 27, 225);
    text-aligin:center;
    }
-   
+   /*dit geeft de opmaak van de kopjes (h1,2,3 enz) aan*/
+
    p {
      font-family:veranda;
      font-size:  18px;
    }
+   /*dit geeft het lettertype en de groote van de tekst aan binnen een paragraaf (<p>)*/
+
    ul {
     list-style-type: none;
     margin: 0;
@@ -22,10 +28,12 @@ body {
     overflow: hidden;
     background-color: #8e8a8a;
   }
-  
+  /*dit geeft de opmaak van een ul list aan*/
+
   li {
     float: left;
   }
+  /*dit geeft aan aan welke kant de balk (Li list) komt te staan*/
   
   li a {
     display: round;
@@ -34,11 +42,12 @@ body {
     padding: 18px;
     text-decoration: none;
   }
-  
+  /*dit geeft de opmaak van een Li list aan*/
+
   li a:hover {
     background-color: #f4e0f5;
   }
-  
+  /*dit geeft de kleur aan van de balk wanneer je erover heen gaat met je muis*/
   
   
 
