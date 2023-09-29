@@ -11,12 +11,12 @@ body {
 
    h1{
    color:rgb(152, 27, 225);
-   text-align:center;
+   text-align:left;
    }
    
    h2{
     color: rgb(240, 177, 251);
-    text-align: center;
+    text-align: left;
    }
    /*dit geeft de opmaak van de kopjes (h1,2,3 enz) aan*/
 
