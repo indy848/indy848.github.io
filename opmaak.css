@@ -13,6 +13,10 @@ body {
    color:rgb(152, 27, 225);
    text-aligin:center;
    }
+   h2{
+    color: rgb(240, 177, 251);
+    text-align: center;
+   }
    /*dit geeft de opmaak van de kopjes (h1,2,3 enz) aan*/
 
    p {
@@ -34,7 +38,7 @@ body {
     float: left;
   }
   /*dit geeft aan aan welke kant de balk (Li list) komt te staan*/
-  
+
   li a {
     display: round;
     color: rgb(6, 6, 6)
