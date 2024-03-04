@@ -1,0 +1,64 @@
+
+
+<html>
+<body>
+
+<script>
+    // hier wordt een lijstje gemaakt voor het aantal getallen
+    var aantal;
+
+    // hier wordt een vraag geteld en de vraag kan worden beantwoord met een input
+    window.alert("Geef aan hoeveel getallen je wilt gebruiken");
+    aantal = Number(window.prompt('Enter a value for aantal'));
+
+    // hier wordt een array voor de nummers gemaakt
+    var nummers = new Array(aantal);
+
+    // hier wordt een lijstje voor de teller gemaakt
+    var teller;
+
+    // hier wordt een for loop gemaakt voor de rij getallen
+    for (teller = 0; teller <= nummers.length - 1; teller++) {
+        nummers[teller] = Math.floor(Math.random() * 100);
+    }
+
+    // dit zijn een soort verwijzingen naar de andere stukken met code
+    weergaveArray(nummers);
+    sorteer(nummers);
+
+
+function sorteer(nummers) {
+    // hier worden de lijstjes gemaakt
+    var i;
+    var j;
+    var temp;
+
+    // hier wordt de for loop gemaakt voor de rij getallen
+    for (i = 0; i <= nummers.length - 1; i++) {
+
+        // hier wordt de dubbele for loop gemaakt
+        for (j = 0; j <= nummers.length - i - 2; j++) {
+
+            // hier wordt een if statement gemaakt voor de nummers (of ze groter of kleiner zijn dat het vorige getal)
+            if (nummers[j] > nummers[j + 1]) {
+                temp = nummers[j];
+                nummers[j] = nummers[j + 1];
+                nummers[j + 1] = temp;
+            }
+        }
+    }
+    window.alert("De gesorteerde waarde zijn");
+    weergaveArray(nummers);
+}
+
+function weergaveArray(nummers) {
+    var teller;
+
+    // hier worden de nummer die in de rij zitten uitgevoerd en aan de gebruiker laten zien
+    for (teller = 0; teller <= nummers.length - 1; teller++) {
+        window.alert(nummers[teller]);
+    }
+}
+</script>
+</body>
+</html>

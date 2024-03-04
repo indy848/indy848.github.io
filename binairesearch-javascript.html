@@ -1,0 +1,49 @@
+<html>
+<body>
+
+    <script>
+ 
+    // Dit programma laat je een getal raden. Het neemt zelf een getal, jij gokt en het programma vertelt je of jouw getal het goede is, of dat het te hoog of te laag is. Je gokt tot je het goede getal geraden hebt. Dan krijg je ook het aantal pogingen te zien, die jij nodig had.
+    // hieronder worden alle lijstjes aangemaakt die er nodig zijn
+    var aantalkeergeraden;
+
+    // hier wordt het aantalkeergeraden op 1 gezet
+    aantalkeergeraden = 1;
+    var i;
+
+    // hier wordt er een random getal gekozen tussen 0 en 30
+    i = Math.floor(Math.random() * 50);
+
+    // hier onder wordt een vraag gesteld, een lijstje gemaakt en een input ingevoegd
+    window.alert("Geef een getal tussen 0 en 50: ");
+    var raadgetal;
+
+    raadgetal = Number(window.prompt('Enter a value for raadgetal'));
+
+    // In deze WHILE-lus gebeurt het: Zolang het getal niet geraden is, moet de gebruiker verder raden. De gebruiker krijgt te zien of zijn gok te hoog of te laag is
+    // als i is niet het ingevoerde raadgetal van de gebruiker, dan gaat de while loop van start, als i is wel het raadgetal dan is het programma afgelopen
+    while (raadgetal != i) {
+
+        // hier wordt de index van de aantalkeergeraden +1 elke keer als je opnieuw door de while loop gaat
+        aantalkeergeraden = aantalkeergeraden + 1;
+
+        // als raadgetal is kleiner dan i, dan is het getal te hoog, als het raadgetal is groter dan i dan is het getal te hoog. hier wordt een melding van gegeven
+        if (raadgetal < i) {
+            window.alert("je raadgetal was te laag");
+        } else {
+            window.alert("je raadgetal was te hoog");
+        }
+
+        // hieronder kan er een nieuw raadgetal worden ingevoerd
+        window.alert("vul een nieuw raadgetal in");
+        raadgetal = Number(window.prompt('Enter a value for raadgetal'));
+    }
+
+    // Hier heeft de gebruiker het geraden. De WHILE-lus is verlaten. De gebruiker krijgt een felicitatie en krijgt te zien in hoeveel keer hij het getal geraden heeft.
+    window.alert("Het getal was: " + i + " jij gokte: " + raadgetal);
+    window.alert("Je hebt het geraden in " + aantalkeergeraden + " keer.");
+
+</script>
+
+</body>
+</html>
