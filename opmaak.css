@@ -42,7 +42,7 @@ body {
 
   li a {
     display: round;
-    color: rgb(6, 6, 6)
+    color: rgb(6, 6, 6);
     text-align: center;
     padding: 18px;
     text-decoration: none;
@@ -60,7 +60,7 @@ body {
 
 
 
-  
+
 
   .third-level-menu
 {
