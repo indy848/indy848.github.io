@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8e8a8a;
+  }
+  /*dit geeft de opmaak van een ul list aan*/
+ 
+ 
+  li {
+    float: left;
+  }
+  /*dit geeft aan aan welke kant de balk (Li list) komt te staan*/
+ 
+ 
+  li a {
+    display: round;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+  }
+  /*dit geeft de opmaak van een Li list aan*/
+ 
+ 
+  li a:hover {
+    background-color: #f4e0f5;
+  }
+  /*dit geeft de kleur aan van de balk wanneer je erover heen gaat met je muis*/
+ 
+ 
