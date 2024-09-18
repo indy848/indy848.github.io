@@ -20,7 +20,7 @@ body {
    }
 
    h3{
-    color: darkmagenta(300, 100, 250);
+    color: rgb(141, 7, 165);
     text-align: left;
    }
    /*dit geeft de opmaak van de kopjes (h1,2,3 enz) aan*/
