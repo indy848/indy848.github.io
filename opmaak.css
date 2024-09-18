@@ -18,6 +18,11 @@ body {
     color: rgb(220, 95, 242);
     text-align: left;
    }
+
+   h3{
+    color: darkmagenta(300, 100, 250);
+    text-align: left;
+   }
    /*dit geeft de opmaak van de kopjes (h1,2,3 enz) aan*/
 
    p {
